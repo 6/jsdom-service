@@ -1,4 +1,4 @@
-Not safe for production use.
+Not safe for production use :fish:
 
 Usage
 -----
@@ -12,9 +12,9 @@ GET http://localhost:5000/?html=<h1>wut</h1>&code=result['sup']=$('h1').text()
 returns the following JSON:
 ```json
 {
-  error: null,
-  result: {
-    sup: "wut"
+  "error": null,
+  "result": {
+    "sup": "wut"
   }
 }
 ```
