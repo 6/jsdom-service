@@ -42,6 +42,7 @@ app.get '/', (req, res) ->
 app.post '/', (req, res) ->
   handleRequest(req.params, res)
 
-port = process.env.PORT || 5000
-console.log "Listening on localhost:#{port}"
-app.listen(port)
+exports.startApp = (port) ->
+  console.log "Listening on localhost:#{port}"
+  app.listen(port)
+  app
