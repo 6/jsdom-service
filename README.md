@@ -1,5 +1,7 @@
 Not safe for production use :fish:
 
+[![Build Status](https://secure.travis-ci.org/6/jsdom-service.png?branch=master)](https://travis-ci.org/6/jsdom-service)
+
 Usage
 -----
 Include `html` and `code` in request params. Your code will have access to `$` (jquery) and should populate the `result` hash.
