@@ -20,6 +20,7 @@
     ,"sinon": "1.5.x"
     ,"sinon-chai": "2.2.x"
     ,"mocha": "1.8.x"
+    ,"should": "1.2.1"
   },
   "engines": {
     "node": ">=0.6"
