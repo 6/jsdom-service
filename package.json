@@ -1,14 +1,14 @@
 {
-  "name": "jsdom-as-a-service",
+  "name": "jsdom-service",
   "version": "0.0.0",
-  "description": "ERROR: No README.md file found!",
+  "description": "jsdom as a service",
   "main": "app.js",
   "scripts": {
     "test": "rake test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/6/jsdom-as-a-service.git"
+    "url": "git://github.com/6/jsdom-service.git"
   },
   "dependencies": {
     "jsdom": "0.2.x"
